@@ -1,0 +1,2 @@
+-- DROP TABLE IF EXISTS `#__ganalytics_profiles`;
+-- DROP TABLE IF EXISTS `#__ganalytics_stats`;

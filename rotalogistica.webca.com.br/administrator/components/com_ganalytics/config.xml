@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params addpath="/administrator/components/com_ganalytics/elements">
+		<param name="username" type="text" default="" size="100" label="Username"
+			description="The username." />
+		<param name="password" type="password" default="" size="100"
+			label="Password" description="The password of the user." />
+		<param name="dateFormat" type="text" size="80" default="%d.%m.%Y"
+				label="Date Format"
+				description="The format of the date(s) (see http://www.php.net/strftime for details)." />
+		<param name="ga_cache" type="list" default="1" label="Caching"
+			description="Select whether to cache the google analytics data (this is only available in the PRO version).">
+			<option value="2">Use global</option>
+			<option value="1">Cache always</option>
+			<option value="0">Cache never</option>
+		</param>
+		<param name="ga_cache_time" type="text" default="900" label="Cache Time"
+			description="The time for the dashboard cache in sec (this is only available in the PRO version)." />
+		<param name="loadJQuery" type="radio" default="yes" label="Load jQuery"
+			description="jQuery is required by this component. The only reason not to load it is if it has already been loaded manually or by another module.">
+			<option value="no">No</option>
+			<option value="yes">Yes</option>
+		</param>
+	</params>
+</config>

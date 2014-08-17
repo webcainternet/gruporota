@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{margin:0px; padding:0px; height:100%}
+body	{margin:0px; padding:0px;}
+#index	{margin:0px; padding:0px; background-image:url(imgs/bg_geral.jpg); background-repeat:no-repeat; background-position:center top; background-color:#fff;} /*Mudar Cor do Background*/
+#global	{margin:0px; padding:0px; width:100%; min-width:980px; position:absolute;}
+#site	{margin:0px; padding:0px; width:980px;height:606px; position:absolute; left:50%; margin-left:-490px;}
+
+
+#topo 	  {width:560px; height:118px; position:absolute; top:0px;}
+#conteudo {width:800px; position:absolute; top:0px; left:0px;}
+#indices {width:400px; position:absolute; top:0px; left:0px;padding-bottom: 30px;}
+
+#rodape  {position: absolute; bottom: 5; margin-left:10%; width:250px; height:29px; background-image:url(logope.jpg)}
+#linkideal	{width:250px; height:29px;}
+#linkideal	a{width:250px; height:29px; display:block; outline:none}
+
+/*Formatação de Texto*/
+
+h1	{font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#009242; margin-top:12px; text-align:left; font-weight:bold }
+h2	{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#6f6f6f; margin-top:12px; text-align:left; font-weight:bold }
+h3	{font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#009242; margin-top:15px; text-align:center; font-weight:bold}
+
+p	{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#171717; line-height:20px; }
+
+a:link		{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#171717; text-align:justify;  text-decoration:none; margin-bottom:2px; line-height:20px;}
+a:visited	{font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #171717; text-align:justify; text-decoration:none; margin-bottom:2px; line-height:20px;}
+a:hover		{font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #009242; text-align:justify;  text-decoration:none; margin-bottom:2px; line-height:20px;}
+
+ul, li,dt,dd{color:#333;}
+
+input,textarea { outline:none;}
+
+/**/
+
+#tabA {position:absolute; left:00px; width:450px;}
+#tabB {position:relative; left:490px; width:450px;}
+#tabC {position:relative; left:250px; width:450px;}
+
+td {border:1px solid #fff; background-color:#fbfbfb; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#6F6F6F; border-width:thin; padding:2px; text-align:center}
+th{border:1px solid #fff; background-color:#efefef; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666; font-weight:bold; text-align:center; border-width:thin; padding:2px;}
+

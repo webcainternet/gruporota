@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - GAnalytics Tracking</name>
+	<author>Allon Moritz</author>
+	<creationDate>June 2010</creationDate>
+	<copyright>This module is released under the GNU/GPL License.
+	</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html
+		GNU/GPL</license>
+	<authorEmail>info@g4j.laoneo.net
+	</authorEmail>
+	<authorUrl>g4j.laoneo.net</authorUrl>
+	<version>1.0.0</version>
+	<description>This plugin puts the tracking code for google analytics
+		into your joomla site.</description>
+	<files>
+		<filename plugin="ganalyticstrcode">ganalyticstrcode.php</filename>
+	</files>
+	<params addpath="/administrator/components/com_ganalytics/elements">
+		<param name="accountids" type="ganalytics" default="" class="single"
+			label="Select Profiles" description="The profiles" />
+	</params>
+</install>

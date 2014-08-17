@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>theme498</name>
+	<creationDate>14 April 2010</creationDate>
+	<author>Svelte</author>
+	<authorEmail>info@template-help.com</authorEmail>
+	<authorUrl>http://www.template-help.com</authorUrl>
+	<copyright>Copyright  2003-2009 template-help.com. All Rights Reserved.</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>this template for Joomla 1.5 is made by template-help.com</description>
+	
+	<files>
+		<filename>component.php</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>xml.php</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>scripts</folder>
+		<folder>stories</folder>
+	</files>
+	
+	<positions>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>footer</position>
+		<position>breadcrumb</position>
+		<position>syndicate</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>footer_links</position>
+		<position>slider_links</position>
+		<position>slider_top</position>
+	</positions>
+	<params>				
+		<param name="slogan" type="text" default="slogan goes here" label="Slogan" description="Slogan" size="50"/>				
+		<param name="showTopBoxColumn" type="radio" default="1" label="Show TopBox" description="Show or Hide the TopBox">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="showFlashColumn" type="radio" default="1" label="Show Flash" description="Show or Hide the Flash">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		<param name="showLeftCol" type="radio" default="1" label="Show Left Column" description="Show or Hide the Left Column">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>	
+		<param name="showFooterBannerColumn" type="radio" default="1" label="Show footer banner" description="Show or Hide the banner in footer">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>	
+		<param name="showFooterColumn" type="radio" default="1" label="Show footer" description="Show or Hide footer">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</install>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+	<name>GAnalytics</name>
+	<creationDate>June 2010</creationDate>
+	<author>Allon Moritz</author>
+	<authorEmail>info@g4j.laoneo.net</authorEmail>
+	<authorUrl>g4j.laoneo.net</authorUrl>
+	<copyright>This module is released under the GNU/GPL License.
+	</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html
+		GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>Google analytics data integrated in joomla.</description>
+	<files folder="site">
+		<filename>controller.php</filename>
+		<filename>ganalytics.php</filename>
+		<filename>index.html</filename>
+		<folder>views</folder>
+		<folder>models</folder>
+		<folder>hiddenviews</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">site/languages/en-GB.com_ganalytics.ini</language>
+		<language tag="de-DE">site/languages/de-DE.com_ganalytics.ini</language>
+	</languages>
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+			<file driver="mysql">install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.sql</file>
+			<file driver="mysql">uninstall.sql</file>
+		</sql>
+	</uninstall>
+	<administration>
+		<menu>GAnalytics</menu>
+		<submenu>
+			<menu view="dashboard">Dashboard</menu>
+			<menu view="config">Configuration</menu>
+			<menu view="profiles">Profiles</menu>
+			<menu view="tools">Tools</menu>
+			<menu view="help">Help</menu>
+		</submenu>
+		<files folder="admin">
+			<!-- Site Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>ganalytics.php</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+			<folder>views</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>controllers</folder>
+			<folder>libraries</folder>
+			<folder>elements</folder>
+			<folder>images</folder>
+			<folder>util</folder>
+		</files>
+		<languages>
+			<language tag="en-GB">admin/languages/en-GB.com_ganalytics.ini
+			</language>
+		</languages>
+	</administration>
+</install>

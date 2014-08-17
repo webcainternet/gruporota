@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body	{margin:0px; padding:0px; font-size:12px; height: 100%; }
+body		{margin:0px; padding:0px;}
+
+#site	{margin:0px; padding:0px; width:100%;*height:100%; position: relative; min-height: 100%; left:10px;}
+#topo 	  {width:560px; height:128px; position:absolute; top:0px;}
+#conteudo {width:560px; position:absolute; top:128px; left:65px;padding-bottom: 30px;}
+
+#rodape  {position: absolute; bottom: 5; margin-left:28%; width:250px; height:29px; background-image:url(logope.jpg)}
+#linkideal	{width:250px; height:29px;}
+#linkideal	a{width:250px; height:29px; display:block; outline:none}
+
+h1	{font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#4580CC; margin-top:12px; text-align:left }
+h2	{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#2061AF; margin-top:12px; text-align:left }
+
+a:link		{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#171717; text-align:justify;  text-decoration:none; margin-bottom:2px;}
+a:visited	{font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #171717; text-align:justify; text-decoration:none; margin-bottom:2px;}
+a:hover		{font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #4580CC; text-align:justify;  text-decoration:none; margin-bottom:2px;}
+
+p{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#171717;}
+
+#c1{position:absolute; width:260px; left:15px; top:40px;}
+#c2{position:absolute; width:270px; left:290px; top:40px;}
+
+/*tabela*/
+#conteudo {width:550px; position:absolute; top:128px; left:190px;}
+.panel 	{background-color: white; border: 0px; border-top: none; position:absolute; top:160px; left:15px;}
+.tabOn 	{border: 1px solid #cccccc; border-bottom: none; text-align: center; background-color: white; cursor: default; color: #4580CC; height: 18px; width:70px; font-size:12px; 
+		font-family:Arial, Helvetica, sans-serif; font-weight:bold;}
+.tab 	{border: 1px solid #cccccc; text-align: center; background-color:#4580CC; color:#fff; height: 18px; width:70px; cursor:pointer; white-space:nowrap; font-size:12px; 
+		font-family:Arial, Helvetica, sans-serif; font-weight:bold;}
+.space	{border-bottom: 1px solid #DFDFDF; width: 2px;}
+
