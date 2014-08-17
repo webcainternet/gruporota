@@ -1,0 +1,56 @@
+CREATE DATABASE  IF NOT EXISTS `webca_rotaengenharia` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `webca_rotaengenharia`;
+-- MySQL dump 10.13  Distrib 5.6.13, for Win32 (x86)
+--
+-- Host: 10.0.20.3    Database: webca_rotaengenharia
+-- ------------------------------------------------------
+-- Server version	5.1.57-community
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `jos_poll_date`
+--
+
+DROP TABLE IF EXISTS `jos_poll_date`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `jos_poll_date` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `vote_id` int(11) NOT NULL DEFAULT '0',
+  `poll_id` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `poll_id` (`poll_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `jos_poll_date`
+--
+
+LOCK TABLES `jos_poll_date` WRITE;
+/*!40000 ALTER TABLE `jos_poll_date` DISABLE KEYS */;
+INSERT INTO `jos_poll_date` VALUES (1,'2006-10-09 13:01:58',1,14),(2,'2006-10-10 15:19:43',7,14),(3,'2006-10-11 11:08:16',7,14),(4,'2006-10-11 15:02:26',2,14),(5,'2006-10-11 15:43:03',7,14),(6,'2006-10-11 15:43:38',7,14),(7,'2006-10-12 00:51:13',2,14),(8,'2007-05-10 19:12:29',3,14),(9,'2007-05-14 14:18:00',6,14),(10,'2007-06-10 15:20:29',6,14),(11,'2007-07-03 12:37:53',2,14),(12,'2010-04-14 11:18:55',7,14);
+/*!40000 ALTER TABLE `jos_poll_date` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2014-08-16 23:33:15
